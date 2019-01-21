@@ -1,4 +1,4 @@
-# thesis-uva
+# Predicting Actions, Progress and future trajectories from a self-driving car
 A curated list of papers and resources about self driving cars, inspired by [awesome-action-recognition](https://github.com/jinwchoi/awesome-action-recognition).
 
 ## Contents
