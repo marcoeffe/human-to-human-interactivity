@@ -37,6 +37,8 @@ A curated list of papers and resources about self driving cars, inspired by [awe
 
 ## Miscellaneus
 
+* [Deep SORT](https://github.com/nwojke/deep_sort) - This repository contains code for Simple Online and Realtime Tracking with a Deep Association Metric (Deep SORT). We extend the original SORT algorithm to integrate appearance information based on a deep appearance descriptor.
+
 * [Modeling Trajectories with Recurrent Neural Networks](https://ink.library.smu.edu.sg/cgi/viewcontent.cgi?article=4849&context=sis_research) -  We design two RNNbased models which can make full advantage of the
 strength of RNN to capture variable length sequence and meanwhile to address the constraints of topological structure on trajectory modeling.
 
