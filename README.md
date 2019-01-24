@@ -9,6 +9,7 @@ A curated list of papers and resources about mutual human behavior and human to 
  - [Miscellaneus](#miscellaneus)
  
 ## Datasets
+*[UT-Interaction dataset](http://cvrc.ece.utexas.edu/SDHA2010/Human_Interaction.html#Data) - The UT-Interaction dataset contains videos of continuous executions of 6 classes of human-human interactions: shake-hands, point, hug, push, kick and punch. Ground truth labels for these interactions are provided, including time intervals and bounding boxes.
 
 ## Action Recognition
 
