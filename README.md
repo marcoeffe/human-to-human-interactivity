@@ -35,13 +35,15 @@ human interactions. These videos are categorized into 4 interaction categories: 
 
 ## Action Progress
 
-* [Am I Done? Predicting Action Progress in Videos](https://arxiv.org/abs/1705.01781) - Wwe introduce the problem of predicting human action progress in videos.
+* [Am I Done? Predicting Action Progress in Videos](https://arxiv.org/abs/1705.01781) - We introduce the problem of predicting human action progress in videos.
 
 * [Human Action Forecasting by Learning Task Grammars](https://arxiv.org/abs/1709.06391) -  It proposes a novel deep recurrent architecture that takes as input features from a two-stream Residual action recognition framework, and learns to estimate the progress of human activities from video sequences.
 
 ## Handcrafted methods
 
 * [Human Activity Prediction: Early Recognition of Ongoing Activities from Streaming Videos](http://michaelryoo.com/papers/iccv11_prediction_ryoo.pdf) - We represent an activity as an integral histogram of spatio-temporal features, efficiently modeling how feature distributions change over time. (dynamic bag-of-words)
+
+* [A Hierarchical Representation for Future Action Prediction](http://cvgl.stanford.edu/papers/lan_eccv14.pdf) - Proposes hierarchical movemes - a new representation to describe human movements at multiple levels of granularities, ranging from atomic movements (e.g. an open arm) to coarser movements that cover a larger temporal extent.
 
 ## Miscellaneus
 
