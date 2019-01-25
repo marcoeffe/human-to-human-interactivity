@@ -5,6 +5,7 @@ A curated list of papers and resources about mutual human behavior and human to 
  - [Datasets](#datasets)
  - [Action Recognition](#action-recognition)
  - [Action Detection](#action-detection)
+ - [Action Prediction](#action-prediction)
  - [Action Progress](#action-progress)
  - [Handcrafted methods - State of the art](#handcrafted-methods)
  - [Miscellaneus](#miscellaneus)
@@ -27,6 +28,10 @@ human interactions. These videos are categorized into 4 interaction categories: 
 ## Action Detection
 
 * [Deep Learning for Detecting Multiple Space-Time Action Tubes in Videos](https://arxiv.org/abs/1608.01529) - It proposes an approach to the spatiotemporal localisation (detection) and classification of multiple concurrent human actions within temporally untrimmed videos.
+
+## Action Prediction
+
+* [Human Interaction Prediction Using Deep Temporal Features](https://www.researchgate.net/publication/309640804_Human_Interaction_Prediction_Using_Deep_Temporal_Features) - Introduces a new method to capture deep temporal information in videos for human interaction prediction. Proposes to use flow coding images to represent the low-level motion information in videos and extract deep temporal features using a deep convolutional neural network architecture. 
 
 ## Action Progress
 
