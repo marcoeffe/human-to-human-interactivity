@@ -31,6 +31,8 @@ human interactions. These videos are categorized into 4 interaction categories: 
 
 ## Action Prediction
 
+* [A Comprehensive Survey on Human Activity Prediction] (https://www.researchgate.net/publication/318229650_A_Comprehensive_Survey_on_Human_Activity_Prediction) - we give a systematic review of current methods for activity prediction and how they overcome the above challenge. Moreover, this paper also compares performances of various techniques on the common dataset to show the current state of research.
+
 * [Human Interaction Prediction Using Deep Temporal Features](https://www.researchgate.net/publication/309640804_Human_Interaction_Prediction_Using_Deep_Temporal_Features) - Introduces a new method to capture deep temporal information in videos for human interaction prediction. Proposes to use flow coding images to represent the low-level motion information in videos and extract deep temporal features using a deep convolutional neural network architecture. 
 
 ## Action Progress
