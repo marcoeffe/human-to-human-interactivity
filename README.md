@@ -39,6 +39,8 @@ human interactions. These videos are categorized into 4 interaction categories: 
 
 * [Am I Done? Predicting Action Progress in Videos](https://arxiv.org/abs/1705.01781) - We introduce the problem of predicting human action progress in videos.
 
+* [Learning Activity Progression in LSTMs for Activity Detection and Early Detection](http://openaccess.thecvf.com/content_cvpr_2016/papers/Ma_Learning_Activity_Progression_CVPR_2016_paper.pdf) - In this work we improve training of temporal deep models to better learn activity progression for activity detection and early detection tasks.
+
 * [Human Action Forecasting by Learning Task Grammars](https://arxiv.org/abs/1709.06391) -  It proposes a novel deep recurrent architecture that takes as input features from a two-stream Residual action recognition framework, and learns to estimate the progress of human activities from video sequences.
 
 ## Handcrafted methods
