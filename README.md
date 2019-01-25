@@ -6,6 +6,7 @@ A curated list of papers and resources about mutual human behavior and human to 
  - [Action Recognition](#action-recognition)
  - [Action Detection](#action-detection)
  - [Action Progress](#action-progress)
+ - [Handcrafted methods - State of the art](#handcrafted-methods)
  - [Miscellaneus](#miscellaneus)
  
 ## Datasets
@@ -32,6 +33,10 @@ human interactions. These videos are categorized into 4 interaction categories: 
 * [Am I Done? Predicting Action Progress in Videos](https://arxiv.org/abs/1705.01781) - Wwe introduce the problem of predicting human action progress in videos.
 
 * [Human Action Forecasting by Learning Task Grammars](https://arxiv.org/abs/1709.06391) -  It proposes a novel deep recurrent architecture that takes as input features from a two-stream Residual action recognition framework, and learns to estimate the progress of human activities from video sequences.
+
+## Handcrafted methods
+
+* [Human Activity Prediction: Early Recognition of Ongoing Activities from Streaming Videos](http://michaelryoo.com/papers/iccv11_prediction_ryoo.pdf) - We represent an activity as an integral histogram of spatio-temporal features, efficiently modeling how feature distributions change over time. (dynamic bag-of-words)
 
 ## Miscellaneus
 
