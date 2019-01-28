@@ -29,6 +29,8 @@ human interactions. These videos are categorized into 4 interaction categories: 
 
 * [Deep Learning for Detecting Multiple Space-Time Action Tubes in Videos](https://arxiv.org/abs/1608.01529) - It proposes an approach to the spatiotemporal localisation (detection) and classification of multiple concurrent human actions within temporally untrimmed videos.
 
+* [Online Real-time Multiple Spatiotemporal Action Localisation and Prediction](https://github.com/gurkirt/realtime-action-detection) - It proposes a deep-learning framework for real-time multiple spatio-temporal (S/T) action localisation and classification. 
+
 ## Action Prediction
 
 * [A Comprehensive Survey on Human Activity Prediction](https://www.researchgate.net/publication/318229650_A_Comprehensive_Survey_on_Human_Activity_Prediction) -  In this survey, we give a systematic review of current methods for activity prediction and how they overcome the above challenge. Moreover, this paper also compares performances of various techniques on the common dataset to show the current state of research.
