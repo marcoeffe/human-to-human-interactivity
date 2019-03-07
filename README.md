@@ -14,16 +14,22 @@ A curated list of papers and resources about mutual human behavior and human to 
 * [UT-Interaction dataset](http://cvrc.ece.utexas.edu/SDHA2010/Human_Interaction.html#Data) - The UT-Interaction dataset contains videos of continuous executions of 6 classes of human-human interactions: shake-hands, point, hug, push, kick and punch. Ground truth labels for these interactions are provided, including time intervals and bounding boxes.
 
 * [BIT-Interaction dataset](https://sites.google.com/site/alexkongy/software) - Consists of 8 classes of human
-interactions (bow, boxing, handshake, high-five, hug, kick, pat,and push), with 50 videos per class.
+interactions (bow, boxing, handshake, high-five, hug, kick, pat,and push), with 50 videos per class. DOWNLOAD IS NOT MORE AVAILABLE.
 
 * [TV-Interaction dataset](http://www.robots.ox.ac.uk/~alonso/tv_human_interactions.html) - Contains 300 videos clips with
 human interactions. These videos are categorized into 4 interaction categories: handshake, high five, hug, and kiss, and annotated with the upper body of people, discrete head orientation and interaction.
 
+* [The Kinetics Human Action Video Dataset](https://deepmind.com/research/open-source/open-source-datasets/kinetics/) -  The dataset contains 400 human action classes, with at least 400 video clips for each action. Each clip lasts around 10s and is taken from a different YouTube video. For this task we take in consideration a small subset (touching person).
+
+* [Volleyball group activity dataset](https://github.com/mostafa-saad/deep-activity-rec) - A new dataset using publicly available YouTube volleyball videos. We annotated 4830 frames that were handpicked from 55 videos with 9 player action labels and 8 team activity labels.
+
 ## Action Recognition
+
+* [Human Action Recognition and Prediction: A Survey](https://arxiv.org/pdf/1806.11230.pdf)
 
 * [Deep Learning for Videos: A 2018 Guide to Action Recognition](http://blog.qure.ai/notes/deep-learning-for-videos-action-recognition-review) - Summary of major landmark action recognition research papers till 2018
 
-* [Human Action Recognition and Prediction: A Survey](https://arxiv.org/pdf/1806.11230.pdf)
+* [Hierarchical Deep Temporal Models for Group Activity Recognition](https://arxiv.org/pdf/1607.02643.pdf) - This paper presents an approach for classifying the activity performed by a group of people in a video sequence. This problem of group activity recognition can be addressed by examining individual person actions and their relations.
 
 ## Action Detection
 
