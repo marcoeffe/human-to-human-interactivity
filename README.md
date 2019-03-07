@@ -4,11 +4,11 @@ A curated list of papers and resources about mutual human behavior and human to 
 ## Contents
  - [Datasets](#datasets)
  - [Action Recognition](#action-recognition)
- - [Action Detection](#action-detection)
+ - [Spatio-Temporal Action Localization](#spatio-temporal-action-localization)
  - [Action Prediction](#action-prediction)
  - [Action Progress](#action-progress)
  - [Handcrafted methods - State of the art](#handcrafted-methods)
- - [Miscellaneus](#miscellaneus)
+ - [Detector](#detector)
  
 ## Datasets
 * [UT-Interaction dataset](http://cvrc.ece.utexas.edu/SDHA2010/Human_Interaction.html#Data) - The UT-Interaction dataset contains videos of continuous executions of 6 classes of human-human interactions: shake-hands, point, hug, push, kick and punch. Ground truth labels for these interactions are provided, including time intervals and bounding boxes.
@@ -31,15 +31,17 @@ human interactions. These videos are categorized into 4 interaction categories: 
 
 * [Hierarchical Deep Temporal Models for Group Activity Recognition](https://arxiv.org/pdf/1607.02643.pdf) - This paper presents an approach for classifying the activity performed by a group of people in a video sequence. This problem of group activity recognition can be addressed by examining individual person actions and their relations.
 
-## Action Detection
+## Spatio-Temporal Action Localization
 
-* [Deep Learning for Detecting Multiple Space-Time Action Tubes in Videos](https://arxiv.org/abs/1608.01529) - It proposes an approach to the spatiotemporal localisation (detection) and classification of multiple concurrent human actions within temporally untrimmed videos.
+* [Online Real-time Multiple Spatiotemporal Action Localisation and Prediction](https://github.com/gurkirt/realtime-action-detection) - It proposes a deep-learning framework for real-time multiple spatio-temporal (S/T) action localisation and classification.
 
-* [Online Real-time Multiple Spatiotemporal Action Localisation and Prediction](https://github.com/gurkirt/realtime-action-detection) - It proposes a deep-learning framework for real-time multiple spatio-temporal (S/T) action localisation and classification. 
+* [Action Tubelet Detector for Spatio-Temporal Action Localization](https://arxiv.org/pdf/1705.01861.pdf) - We propose the ACtion Tubelet detector (ACT-detector) that takes as input a sequence of frames and outputs tubelets, i.e., sequences of bounding boxes with associated scores. We build upon the SSD framework. 
 
 ## Action Prediction
 
 * [A Comprehensive Survey on Human Activity Prediction](https://www.researchgate.net/publication/318229650_A_Comprehensive_Survey_on_Human_Activity_Prediction) -  In this survey, we give a systematic review of current methods for activity prediction and how they overcome the above challenge. Moreover, this paper also compares performances of various techniques on the common dataset to show the current state of research.
+
+* [Predicting Human Interaction via Relative Attention Model](https://arxiv.org/pdf/1705.09467.pdf) - Built on a tricoupled deep recurrent structure representing both interacting subjects and global interaction status, the proposed network collects spatio-temporal information from each subject, rectified with global interaction information, yielding effective interaction representation.
 
 * [Human Interaction Prediction Using Deep Temporal Features](https://www.researchgate.net/publication/309640804_Human_Interaction_Prediction_Using_Deep_Temporal_Features) - Introduces a new method to capture deep temporal information in videos for human interaction prediction. Proposes to use flow coding images to represent the low-level motion information in videos and extract deep temporal features using a deep convolutional neural network architecture. 
 
@@ -57,6 +59,8 @@ human interactions. These videos are categorized into 4 interaction categories: 
 
 * [A Hierarchical Representation for Future Action Prediction](http://cvgl.stanford.edu/papers/lan_eccv14.pdf) - Proposes hierarchical movemes - a new representation to describe human movements at multiple levels of granularities, ranging from atomic movements (e.g. an open arm) to coarser movements that cover a larger temporal extent.
 
-## Miscellaneus
+## Detector
 
-* [Deep SORT](https://github.com/nwojke/deep_sort) - This repository contains code for Simple Online and Realtime Tracking with a Deep Association Metric (Deep SORT). We extend the original SORT algorithm to integrate appearance information based on a deep appearance descriptor.
+* [SSD: Single Shot MultiBox Detector](https://arxiv.org/pdf/1512.02325.pdf) - Presents a method for detecting objects in images using a single deep neural network. This approach, named SSD, discretizes the output space of bounding boxes into a set of default boxes over different aspect ratios and scales per feature map location.
+
+* [Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks](https://arxiv.org/pdf/1506.01497.pdf) -  This work introduces a Region Proposal Network (RPN) that shares full-image convolutional features with the detection network, thus enabling nearly cost-free region proposals.
